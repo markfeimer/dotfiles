@@ -1,3 +1,4 @@
 .DS_Store
 localMachine.sh
 *.swp
+.vim/.netrwhist
