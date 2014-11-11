@@ -11,6 +11,10 @@ Add the following to your .bash_profile
 
     source ~/.dotfiles/universal.sh
 
+Create your ~/.dotfiles/localMachine.sh
+
+    vim ~/.dotfiles/localMachine.sh
+
 Symlink .vimrc:
 
     ln -s .dotfiles/.vimrc .vimrc
