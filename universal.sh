@@ -16,8 +16,10 @@ export TERM=xterm-256color
 #git formatting
 source ~/.dotfiles/git-prompt.sh
 
-#aliases
+### Common aliases ###
 alias ls="ls -GFal --color"
+#for X systems
+alias toclip="xclip -selection clipboard"
 
 #boosh = boooounce shell
 alias boosh="source ~/.bash_profile"
