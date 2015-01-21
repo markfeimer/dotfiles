@@ -16,7 +16,13 @@ alias ls="ls -GFal"
 #boosh = boooounce shell
 alias boosh="source ~/.bash_profile"
 
+##
+# enable clipboards on Mac
+##
+alias vim='echo "using macvim in terminal mode" && mvim -v'
 
 ### System Config for each machine ###
 source ~/.dotfiles/localMachine.sh
+
+
 
