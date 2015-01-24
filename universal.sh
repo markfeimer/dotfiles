@@ -14,7 +14,7 @@ export PS1='\[\033[0;32m\]\u\[\033[0m\]@\[\033[0;32m\]\h \t  \[\033[0m\] \[\033[
 export TERM=xterm-256color
 
 #git formatting
-source ~/.dotfiles/git-prompt.sh
+source ~/dotfiles/git-prompt.sh
 
 ### Common aliases ###
 alias ls="ls -GFal --color"
@@ -26,5 +26,5 @@ alias boosh="source ~/.bash_profile"
 
 
 ### System Config for each machine ###
-source ~/.dotfiles/localMachine.sh
+source ~/dotfiles/localMachine.sh
 
