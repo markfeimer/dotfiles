@@ -26,8 +26,8 @@ export TERM=xterm-256color
 #alias vim='echo "using macvim in terminal mode" && mvim -v'
 
 ## For Linux-y definitions
-alias ls="ls -Fal --color" 
-export LS_COLORS="di=1;36:fi=35:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35"
+#alias ls="ls -Fal --color" 
+#export LS_COLORS="di=1;36:fi=35:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35"
 
 
 ### System Config for each machine ###
