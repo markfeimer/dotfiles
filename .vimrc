@@ -29,8 +29,19 @@ set showcmd
 set statusline+=%F
 set laststatus=2
 
+" open .md as markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
 " plugins
 execute pathogen#infect()
 
 let g:syntastic_check_on_open = 1
 let g:syntastic_always_populate_loc_list = 1
+
+" close a buffer
+noremap <leader>h :bd<Enter>
+
+" file manipulation
+nnoremap <leader><space> :Vexplore<Enter> 
+let g:netrw_liststyle=3
+
