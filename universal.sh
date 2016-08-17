@@ -18,12 +18,12 @@ export TERM=xterm-256color
 ### OS specific ###
 
 ## Mac/BSD definitions
-#export LSCOLORS="GxFbCbDbBbegedabagaced"
-#alias ls="ls -GFal"
+export LSCOLORS="GxFbCbDbBbegedabagaced"
+alias ls="ls -GFal"
 #for X systems
 #alias toclip="xclip -selection clipboard"
 # enable clipboards on Mac by using mvim
-#alias vim='echo "using macvim in terminal mode" && mvim -v'
+alias vim='echo "using macvim in terminal mode" && mvim -v'
 
 ## For Linux-y definitions
 #alias ls="ls -Fal --color" 

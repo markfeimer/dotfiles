@@ -4,10 +4,10 @@ syntax enable
 
 " indenting
 filetype plugin indent on
-set expandtab       " Use softtabstop spaces instead of tab characters
-set shiftwidth=2    " Indent by 4 spaces when using >>, <<, == etc.
-set softtabstop=2   " Indent by 4 spaces when pressing <TAB 
-set tabstop=2       " Indent by 4 spaces when pressing <TAB>
+set noexpandtab     " Use softtabstop spaces instead of tab characters
+set shiftwidth=2    " Indent by 2 spaces when using >>, <<, == etc.
+set softtabstop=2   " Indent by 2 spaces when pressing <TAB 
+set tabstop=2       " Indent by 2 spaces when pressing <TAB>
 set autoindent      " Keep indentation from previous line
 
 " line numbers, yes
@@ -19,6 +19,10 @@ set nowrap
 
 " Height of the command bar
 set cmdheight=2
+
+" set blank space characters
+set list
+set listchars=tab:␉·
 
 " colors, yes
 set t_Co=256
@@ -44,4 +48,7 @@ noremap <leader>h :bd<Enter>
 " file manipulation
 nnoremap <leader><space> :Vexplore<Enter> 
 let g:netrw_liststyle=3
+
+" for faster ctrlp plugin fuzzy find
+set wildignore+=*/node_modules/*,*/vendor_libs/*
 
