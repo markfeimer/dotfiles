@@ -33,6 +33,8 @@ export LS_COLORS="di=1;36:fi=35:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35"
 alias toclip="xclip -selection clipboard"
 
 
+alias gs="git status"
+
 ### System Config for each machine ###
 source ~/dotfiles/localMachine.sh
 
